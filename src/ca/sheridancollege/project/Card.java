@@ -20,6 +20,13 @@ public abstract class Card {
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
+    
+    public abstract String getCardValue();
+    
+    public abstract void setColor(String color);
+            
+    public abstract String getColor();
+    
     @Override
     public abstract String toString();
 
